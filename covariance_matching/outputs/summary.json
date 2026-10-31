@@ -1,0 +1,25 @@
+{
+  "n_t": 886,
+  "n_candidates": 33104,
+  "pca_dim": 64,
+  "keep_duplicates": false,
+  "sigma_t_frobenius": 0.01976547497113178,
+  "full_pool_frobenius": 0.013245673006557249,
+  "sizes": {
+    "1772": {
+      "cm_frobenius": 0.006944849916485942,
+      "random_frobenius": 0.013381624855897573,
+      "path": "C:\\Users\\dell\\Documents\\HADL_CourseProject\\hadl_courseproject\\covariance_matching\\outputs\\covariance_matched_n1772.parquet"
+    },
+    "3544": {
+      "cm_frobenius": 0.007804467425556778,
+      "random_frobenius": 0.013344845238293924,
+      "path": "C:\\Users\\dell\\Documents\\HADL_CourseProject\\hadl_courseproject\\covariance_matching\\outputs\\covariance_matched_n3544.parquet"
+    },
+    "7088": {
+      "cm_frobenius": 0.008887001833065261,
+      "random_frobenius": 0.013275131587601036,
+      "path": "C:\\Users\\dell\\Documents\\HADL_CourseProject\\hadl_courseproject\\covariance_matching\\outputs\\covariance_matched_n7088.parquet"
+    }
+  }
+}
