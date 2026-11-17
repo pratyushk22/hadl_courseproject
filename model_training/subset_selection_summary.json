@@ -1,0 +1,33 @@
+{
+    "input_file": "../data_and_scripts/odia_synth_cleaned/or_synthetic_filtered_with_time_cost.parquet",
+    "total_pool_examples": 216394,
+    "time_budget_sec_per_epoch": 600.0,
+    "low_rank_score_source": "synthetic_fallback",
+    "covariance_score_source": "synthetic_fallback",
+    "methods": {
+        "random_selection": {
+            "output_file": "../data_and_scripts/odia_synth_cleaned/selected_subsets/subset_random.parquet",
+            "num_selected_samples": 771,
+            "avg_token_length": 196.9,
+            "total_combined_utility": 410.5512,
+            "predicted_epoch_time_sec": 599.365,
+            "selection_algorithm_time_sec": 0.01715
+        },
+        "quality-only_lr_cov": {
+            "output_file": "../data_and_scripts/odia_synth_cleaned/selected_subsets/subset_quality_only.parquet",
+            "num_selected_samples": 487,
+            "avg_token_length": 311.51,
+            "total_combined_utility": 411.1312,
+            "predicted_epoch_time_sec": 599.525,
+            "selection_algorithm_time_sec": 0.03964
+        },
+        "proposed_knapsack": {
+            "output_file": "../data_and_scripts/odia_synth_cleaned/selected_subsets/subset_proposed_knapsack.parquet",
+            "num_selected_samples": 1238,
+            "avg_token_length": 115.89,
+            "total_combined_utility": 823.6942,
+            "predicted_epoch_time_sec": 599.855,
+            "selection_algorithm_time_sec": 0.02798
+        }
+    }
+}
