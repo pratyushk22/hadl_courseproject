@@ -1,0 +1,16 @@
+{
+    "gpu_name": "Apple Silicon MPS (Qwen3-1.7B 28-Layer Scaled)",
+    "formula": "T_step_ms = beta_0 + beta_B * B + beta_BL * (B * L) + beta_BL2 * (B * L^2)",
+    "coefficients": {
+        "beta_0": 0.0,
+        "beta_B": 106.04333393957458,
+        "beta_BL": 3.082792767627359,
+        "beta_BL2": 0.0015569767893916057
+    },
+    "metrics": {
+        "in_sample_mape_pct": 5.172,
+        "loocv_mape_pct": 6.218,
+        "loocv_rmse_ms": 659.301,
+        "r2_score": 0.99579
+    }
+}
