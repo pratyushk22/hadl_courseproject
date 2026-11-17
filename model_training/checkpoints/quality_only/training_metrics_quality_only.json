@@ -1,0 +1,13 @@
+{
+    "method": "quality_only",
+    "gpu_name": "Apple Silicon MPS",
+    "num_train_samples": 8,
+    "epochs": 1.0,
+    "batch_size": 1,
+    "grad_accum_steps": 4,
+    "final_train_loss": 1.161,
+    "predicted_training_time_sec": 12.486,
+    "actual_wall_clock_time_sec": 519.146,
+    "proxy_time_error_pct": 97.59,
+    "adapter_checkpoint_path": "./checkpoints/quality_only/final_adapter"
+}

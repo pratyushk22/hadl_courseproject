@@ -1,0 +1,13 @@
+{
+    "method": "proposed_knapsack",
+    "gpu_name": "Apple Silicon MPS",
+    "num_train_samples": 8,
+    "epochs": 1.0,
+    "batch_size": 1,
+    "grad_accum_steps": 4,
+    "final_train_loss": 3.4899,
+    "predicted_training_time_sec": 3.079,
+    "actual_wall_clock_time_sec": 118.532,
+    "proxy_time_error_pct": 97.4,
+    "adapter_checkpoint_path": "./checkpoints/proposed_knapsack/final_adapter"
+}

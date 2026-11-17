@@ -1,0 +1,13 @@
+{
+    "method": "random",
+    "gpu_name": "Apple Silicon MPS",
+    "num_train_samples": 8,
+    "epochs": 1.0,
+    "batch_size": 1,
+    "grad_accum_steps": 4,
+    "final_train_loss": 1.599,
+    "predicted_training_time_sec": 5.639,
+    "actual_wall_clock_time_sec": 425.247,
+    "proxy_time_error_pct": 98.67,
+    "adapter_checkpoint_path": "./checkpoints/random/final_adapter"
+}
