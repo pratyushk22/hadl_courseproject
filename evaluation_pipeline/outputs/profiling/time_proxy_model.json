@@ -1,0 +1,16 @@
+{
+    "gpu_name": "Tesla T4",
+    "formula": "T_step_ms = beta_0 + beta_B * B + beta_BL * (B * L) + beta_BL2 * (B * L^2)",
+    "coefficients": {
+        "beta_0": 48.42797607449106,
+        "beta_B": 0.0,
+        "beta_BL": 0.2584013277581224,
+        "beta_BL2": 3.492069429214069e-05
+    },
+    "metrics": {
+        "in_sample_mape_pct": 5.826,
+        "loocv_mape_pct": 6.378,
+        "loocv_rmse_ms": 21.78,
+        "r2_score": 0.99889
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "num_examples": 176,
+  "exact_match": 26.136363636363637,
+  "exact_match_ci_low": 20.46783625730994,
+  "exact_match_ci_high": 32.0240491497927,
+  "token_f1": 51.11066017316017,
+  "token_f1_ci_low": 44.919628333877746,
+  "token_f1_ci_high": 56.90886539133023,
+  "char_f1": 63.519727775936175,
+  "char_f1_ci_low": 59.5547889712843,
+  "char_f1_ci_high": 67.25080304016096,
+  "contains_gold": 43.75,
+  "contains_gold_ci_low": 36.04651162790697,
+  "contains_gold_ci_high": 51.14942528735632,
+  "run_id": "random_b490_s42",
+  "split": "test",
+  "generation_seconds": 230.1146001720008,
+  "seconds_per_example": 1.3074693191590954,
+  "empty_prediction_pct": 0.0,
+  "device_name": "Tesla T4"
+}

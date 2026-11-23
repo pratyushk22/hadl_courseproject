@@ -1,0 +1,9 @@
+{
+  "budgets_sec": [
+    490.0
+  ],
+  "real_train_proxy_sec": 490.1516614193772,
+  "budget_x_real": [
+    0.9996905826679481
+  ]
+}

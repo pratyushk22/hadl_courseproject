@@ -1,0 +1,6 @@
+# regenerable in ~2 minutes by scripts/01_build_pool.py
+outputs/pool/
+# trainer scratch directories
+outputs/runs/*/trainer_tmp/
+__pycache__/
+.pytest_cache/

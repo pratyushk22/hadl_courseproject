@@ -1,0 +1,22 @@
+# Evaluation pipeline.
+# Steps 1, 2, 5, 6 (CPU): numpy, pandas, pyarrow, matplotlib, transformers (tokeniser only), tqdm
+# Steps 3, 4 (GPU): + torch, peft, accelerate, datasets
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14
+matplotlib>=3.7
+tqdm>=4.66
+jinja2>=3.1           # needed by tokenizer.apply_chat_template
+packaging>=23
+transformers>=4.51      # Qwen3 support starts at 4.51 (tested on 5.x as well)
+torch>=2.2
+peft>=0.12
+accelerate>=0.34
+datasets>=2.19
+# re-profiling the time proxy (performance_profiling/fit_time_proxy.py)
+scipy>=1.10
+scikit-learn>=1.4
+# covariance diagnostic (step 7): downloads the embedding files from the team Google Drive
+gdown>=5.0
+# tests
+pytest>=7

@@ -1,0 +1,7 @@
+{
+  "_comment": "Wall-clock seconds of the one-off selection stages run by teammates. Fill in measured values (null = unknown, left out of the overhead plot). The proxy-scoring and selection times are measured automatically by scripts 01/02.",
+  "embedding_generation_sec": null,
+  "low_rank_selection_sec": null,
+  "covariance_matching_sec": null,
+  "hardware_profiling_sec": null
+}
