@@ -1,0 +1,33 @@
+{
+  "run_level_pre_training_estimate": {
+    "n": 6,
+    "mape_pct": 76.46069291998862,
+    "median_ape_pct": 75.91404636651164,
+    "rmse": 3234.9786270112595,
+    "mean_signed_error_pct": -76.46069291998862,
+    "r2": -12.08016258382417,
+    "spearman": 0.7714285714285715,
+    "scale_actual_over_pred": 4.269154936779865,
+    "loo_calibrated_mape_pct": 5.134131532645974
+  },
+  "run_level_observed_batches": {
+    "n": 6,
+    "mape_pct": 69.66525533411807,
+    "median_ape_pct": 69.73837106406273,
+    "rmse": 2915.6347284452313,
+    "mean_signed_error_pct": -69.66525533411807,
+    "r2": -9.76989592094305,
+    "spearman": 0.08571428571428573,
+    "scale_actual_over_pred": 3.2817123853928014
+  },
+  "micro_batch_level": {
+    "n": 7403,
+    "mape_pct": 68.8805500854375,
+    "median_ape_pct": 68.20516106715374,
+    "rmse": 2535.734894661515,
+    "mean_signed_error_pct": -68.88055008543749,
+    "r2": -2.045410604761895,
+    "spearman": 0.9734649784366234,
+    "scale_actual_over_pred": 3.2817123853928014
+  }
+}

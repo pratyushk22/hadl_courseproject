@@ -1,0 +1,10 @@
+kind,run_id,method,budget_sec,seed,n,rel_dist_pca,rel_dist_full
+subset,cov_match_only_b527_s42,cov_match_only,527.0,42.0,1662,0.3479747732741368,0.6631001054901307
+subset,low_rank_only_b527_s42,low_rank_only,527.0,42.0,1771,0.7892689246933725,1.3120663628644769
+subset,proposed_knapsack_b527_s42,proposed_knapsack,527.0,42.0,2720,0.4591393650195053,0.7591546605637398
+subset,quality_only_b527_s42,quality_only,527.0,42.0,1478,0.429569266994885,0.7192229406197467
+subset,random_b527_s42,random,527.0,42.0,1858,0.6847354997927776,0.9886494609737264
+reference,Whole low-rank pool,reference,,,33104,0.670142113816956,0.9476149792000242
+reference,"All 7,088 covariance-matched candidates",reference,,,7088,0.44962327980280026,0.6918647411364418
+reference,"Covariance-matching top 1,772",reference,,,1772,0.35136362899059415,0.6622364292139493
+reference,"Covariance-matching top 3,544",reference,,,3544,0.39485443153035865,0.6637607738541923

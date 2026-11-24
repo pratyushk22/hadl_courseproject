@@ -1,0 +1,17 @@
+method,component,seconds
+cov_match_only,Time-proxy scoring,49.05803691299997
+cov_match_only,Subset selection,0.0013939810000351827
+cov_match_only,Fine-tuning,4320.932913218001
+low_rank_only,Time-proxy scoring,49.05803691299997
+low_rank_only,Subset selection,0.00472465400002875
+low_rank_only,Fine-tuning,4778.228887986001
+proposed_knapsack,Time-proxy scoring,49.05803691299997
+proposed_knapsack,Subset selection,0.11963207099995543
+proposed_knapsack,Fine-tuning,4409.682702501
+quality_only,Time-proxy scoring,49.05803691299997
+quality_only,Subset selection,0.0017467769999939264
+quality_only,Fine-tuning,4757.440829424
+random,Time-proxy scoring,42.683744434999994
+random,Subset selection,0.0016308610000237422
+random,Fine-tuning,4303.571114222
+real_only,Fine-tuning,2169.892492549
