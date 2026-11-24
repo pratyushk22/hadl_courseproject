@@ -1,6 +1,0 @@
-{
-  "gpu_name": "Tesla T4",
-  "formula": "T_step_ms = beta_0 + beta_B * B + beta_BL * (B * L) + beta_BL2 * (B * L^2)",
-  "coefficients": {"beta_0": 48.4280, "beta_B": 0.0, "beta_BL": 0.258401, "beta_BL2": 0.000034921},
-  "_note": "Reconstructed from the printed (rounded) coefficients in the Kaggle log of the fp16 run"
-}
